@@ -16,7 +16,6 @@ const Timer = () => {
 		setDateNow(new Date());
 	}
 	
-	
 	useEffect(() => {
 		const timerId = setInterval(updateTimer, 1000);
 
